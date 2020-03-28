@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>loop task</title>
+</head>
+<body>
+  <p id="info"></p>
+  <script>
+  let name ="christian";
+  let courses = ["html", "javascript", "css", "node.js", "ruby"];
+
+    console.log("My name is:" + name);
+
+
+  
+  let display_courses ="";
+  let i;
+  for (i = 0; i<= courses.length; i++ ) {
+    display_courses += courses[i] + "<br>"
+
+
+     
+  
+  }
+  document.getElementById("info").innerHTML = display_courses;
+
+  let a = 0;
+
+  console.log('odd numbers')
+  do{
+    if(a%2 !==0){
+      console.log(a);
+    };
+    a++;
+  }
+  while(a<=200);
+  
+
+  </script>
+
+</body>
+</html>
